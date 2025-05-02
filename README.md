@@ -100,7 +100,7 @@ Here is an example on how to setup a training run on a HPC using anemoi-training
 Download the ERA5 096 dataset from the [anemoi-catalogue](https://anemoi.ecmwf.int/).
 
 ```bash
-anemoi-datasets copy --resume s3://ml-datasets/cerra-rr-an-oper-0001-mars-5p5km-1984-2020-3h-v2-rmi.zarr/ .
+anemoi-datasets copy --resume s3://ml-datasets/aifs-ea-an-oper-0001-mars-o96-1979-2022-6h-v6.zarr .
 ```
 
 ### ✏️ Adjust Config File
