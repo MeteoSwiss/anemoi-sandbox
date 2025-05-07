@@ -14,7 +14,7 @@ A sandbox repository containing instructions and notebooks to train, evaluate, a
 
 ---
 
-## 🛠️ Setup Environment
+## Setup Environment
 
 Download a Python package manager like [Anaconda](https://www.anaconda.com/).
 
@@ -67,7 +67,7 @@ Alternatively, refer to [anemoi-config](https://github.com/ecmwf/anemoi-configs)
 
 ---
 
-## 🗂️ Config Archive
+## Config Archive
 
 Anemoi relies on YAML configuration files to define pipelines.
 
@@ -91,7 +91,7 @@ You can have a look at all available CLI command within anemoi in each documenta
 
 ---
 
-## 🌎 Example Training Run: GraphCast Global Model
+## Example Training Run: GraphCast Global Model
 
 Here is an example on how to setup a training run on a HPC using anemoi-training.
 
@@ -166,7 +166,7 @@ You can find your specific run by looking at the values of `experiment_name` and
 Please refer to [MLFlow Introduction](mlflow_intro.md) for more details about MLFlow monitoring.
 
 
-## 🔍 Run Lightweight Verification
+## Run Lightweight Verification
 
 Once your training is completed, anemoi generates a checkpoint file containing all model weights. 
 You can find it by looking at the checkpoint path in the config file.
