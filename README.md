@@ -22,6 +22,7 @@ Create the environment:
 
 ```bash
 conda create -n anemoi python=3.10 -y
+conda activate anemoi
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
 
@@ -31,9 +32,9 @@ Install packages:
 
 ```bash
 pip install anemoi-datasets
-pip install anemoi-training
-pip install anemoi-models
-pip install anemoi-graphs
+pip install anemoi-training==0.3.3
+pip install anemoi-models==0.4.2
+pip install anemoi-graphs==0.5.0
 pip install anemoi-utils
 pip install anemoi-inference
 ```
