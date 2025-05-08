@@ -201,3 +201,6 @@ cd lightweight_verif
 
 ---
 
+### 🖼️ Visualize Metrics
+
+Execute the `verification.ipynb` notebook to check the desired metrics and models.
