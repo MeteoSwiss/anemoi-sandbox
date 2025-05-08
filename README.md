@@ -80,7 +80,7 @@ Please refer to [Hydra Introduction](hydra_intro.md) for more details about hydr
 
 ---
 
-## 📘 Explore Anemoi Documentation
+## Explore Anemoi Documentation
 
 You can have a look at all available CLI command within anemoi in each documentation section:
 
