@@ -173,8 +173,12 @@ You can find it by looking at the checkpoint path in the config file.
 
 ### 📥 Install Verification Tool
 
+Until it is moved to its own repository, you can find the verification tool here:
 ```
-TODO: add path to new repo
+git clone git@github.com:MeteoSwiss/ml-pilot-anemoi.git
+cd ml-pilot-anemoi
+git checkout ml-forecasting
+cd inference
 ```
 
 ### 🚧 Run Verification Script
@@ -185,7 +189,6 @@ TODO: add path to new repo
 2. Launch:
 
 ```bash
-cd lightweight_verif
 ./submit_inference_array.sh 090030db9b0c4d3c8e9f42ef66053e6b -m stage_A-metno
 ```
 
