@@ -18,25 +18,14 @@ A sandbox repository containing instructions and notebooks to train, evaluate, a
 
 Download a Python package manager like [Anaconda](https://www.anaconda.com/).
 
+### Training environment
+
 Create the environment:
 
 ```bash
 conda create -n anemoi python=3.10 -y
 conda activate anemoi
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-```
-
-Install packages:
-
-**Users:**
-
-```bash
-pip install anemoi-datasets
-pip install anemoi-training==0.3.3
-pip install anemoi-models==0.4.2
-pip install anemoi-graphs==0.5.0
-pip install anemoi-utils
-pip install anemoi-inference
 ```
 
 **Developers:**
@@ -61,6 +50,27 @@ git clone git@github.com:ecmwf/anemoi-inference.git
 cd anemoi-inference
 pip install -e .
 cd ..
+```
+
+### Inference environment
+
+The following inference environment has to be created in order to run inference over older checkpoints trained with specific versions of anemoi.
+
+Create the environment:
+
+```bash
+conda create -n anemoi python=3.10 -y
+conda activate anemoi-inference
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+pip install anemoi-datasets==0.5.23
+pip install anemoi-graphs==0.5.0
+pip install anemoi-inference==0.5.4
+pip install anemoi-models==0.4.2
+pip install anemoi-training==0.3.3
+pip install anemoi-transform==0.1.10
+pip install anemoi-utils==0.4.22
 ```
 
 Alternatively, refer to [anemoi-config](https://github.com/ecmwf/anemoi-configs).
