@@ -16,7 +16,7 @@ A sandbox repository containing instructions and notebooks to train, evaluate, a
 
 ## Setup Environment
 
-Download a Python package manager like [Anaconda](https://www.anaconda.com/).
+Download and install miniforge[miniforge](https://github.com/conda-forge/miniforge), a minimal install for Conda and Mamba specific to conda-forge.
 
 ### Training environment
 
