@@ -71,6 +71,9 @@ pip install anemoi-models==0.4.2
 pip install anemoi-training==0.3.3
 pip install anemoi-transform==0.1.10
 pip install anemoi-utils==0.4.22
+
+pip install eccodes-cosmo-resources-python
+conda env config vars set ECCODES_DEFINITION_PATH=$CONDA_PREFIX/share/eccodes-cosmo-resources/definitions
 ```
 
 Alternatively, refer to [anemoi-config](https://github.com/ecmwf/anemoi-configs).
