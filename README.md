@@ -16,7 +16,7 @@ A sandbox repository containing instructions and notebooks to train, evaluate, a
 
 ## Setup Environment
 
-Download and install miniforge[miniforge](https://github.com/conda-forge/miniforge), a minimal install for Conda and Mamba specific to conda-forge.
+Download and install [miniforge](https://github.com/conda-forge/miniforge), a minimal install for Conda and Mamba specific to conda-forge.
 
 ### Training environment
 
