@@ -52,34 +52,9 @@ pip install -e .
 cd ..
 ```
 
-### Inference environment
-
-The following inference environment has to be created in order to run inference over older checkpoints trained with specific versions of anemoi.
-
-Create the environment:
-
-```bash
-conda create -n anemoi-inference python=3.10 -y
-conda activate anemoi-inference
-
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-
-pip install anemoi-datasets==0.5.23
-pip install anemoi-graphs==0.5.0
-pip install anemoi-inference==0.5.4
-pip install anemoi-models==0.4.2
-pip install anemoi-training==0.3.3
-pip install anemoi-transform==0.1.10
-pip install anemoi-utils==0.4.22
-
-pip install eccodes-cosmo-resources-python
-conda env config vars set ECCODES_DEFINITION_PATH=$CONDA_PREFIX/share/eccodes-cosmo-resources/definitions
-```
-
-
 ### Legacy environment
 
-The following environment has to be created in order to run trainings in line with older checkpoints.
+The following environment has to be created in order to run training and inference with older versions of anemoi.
 
 Create the environment:
 
